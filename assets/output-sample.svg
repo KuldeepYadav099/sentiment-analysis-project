@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Sentiment Analysis Output Sample</title>
+  <desc id="desc">Example output showing sentiment distribution and model accuracy.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#eef5ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <text x="60" y="62" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#123a5b">Sentiment Analysis Output</text>
+  <text x="60" y="95" font-family="Arial, sans-serif" font-size="16" fill="#4a5d70">Decision Tree Classifier on product review data</text>
+
+  <rect x="60" y="130" width="430" height="260" rx="12" fill="#ffffff" stroke="#d7e6f8"/>
+  <text x="90" y="165" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#2f4054">Sentiment Distribution</text>
+
+  <rect x="110" y="195" width="58" height="120" fill="#ef4444" rx="6"/>
+  <rect x="192" y="250" width="58" height="65" fill="#22c55e" rx="6"/>
+  <rect x="274" y="228" width="58" height="87" fill="#3b82f6" rx="6"/>
+
+  <text x="122" y="335" font-family="Arial, sans-serif" font-size="14" fill="#2f4054">Negative</text>
+  <text x="206" y="335" font-family="Arial, sans-serif" font-size="14" fill="#2f4054">Positive</text>
+  <text x="286" y="335" font-family="Arial, sans-serif" font-size="14" fill="#2f4054">Neutral</text>
+  <text x="118" y="188" font-family="Arial, sans-serif" font-size="12" fill="#2f4054">120</text>
+  <text x="200" y="244" font-family="Arial, sans-serif" font-size="12" fill="#2f4054">65</text>
+  <text x="282" y="222" font-family="Arial, sans-serif" font-size="12" fill="#2f4054">87</text>
+
+  <rect x="530" y="130" width="690" height="260" rx="12" fill="#ffffff" stroke="#d7e6f8"/>
+  <text x="560" y="165" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#2f4054">Model Performance</text>
+
+  <text x="560" y="215" font-family="Arial, sans-serif" font-size="16" fill="#123a5b">Accuracy</text>
+  <text x="740" y="215" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#123a5b">0.82</text>
+  <rect x="560" y="230" width="530" height="18" rx="9" fill="#e5eefb"/>
+  <rect x="560" y="230" width="433" height="18" rx="9" fill="#3b82f6"/>
+
+  <text x="560" y="285" font-family="Arial, sans-serif" font-size="16" fill="#123a5b">Precision</text>
+  <text x="740" y="285" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#123a5b">0.81</text>
+  <rect x="560" y="300" width="530" height="18" rx="9" fill="#e5eefb"/>
+  <rect x="560" y="300" width="429" height="18" rx="9" fill="#22c55e"/>
+
+  <text x="560" y="355" font-family="Arial, sans-serif" font-size="16" fill="#123a5b">Recall</text>
+  <text x="740" y="355" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#123a5b">0.80</text>
+  <rect x="560" y="370" width="530" height="18" rx="9" fill="#e5eefb"/>
+  <rect x="560" y="370" width="424" height="18" rx="9" fill="#f59e0b"/>
+
+  <rect x="60" y="430" width="1160" height="200" rx="12" fill="#ffffff" stroke="#d7e6f8"/>
+  <text x="90" y="470" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#2f4054">Confusion Matrix</text>
+
+  <rect x="200" y="500" width="110" height="70" fill="#dbeafe" stroke="#93c5fd"/>
+  <rect x="310" y="500" width="110" height="70" fill="#dbeafe" stroke="#93c5fd"/>
+  <rect x="420" y="500" width="110" height="70" fill="#dbeafe" stroke="#93c5fd"/>
+  <rect x="200" y="570" width="110" height="40" fill="#dbeafe" stroke="#93c5fd"/>
+  <rect x="310" y="570" width="110" height="40" fill="#dbeafe" stroke="#93c5fd"/>
+  <rect x="420" y="570" width="110" height="40" fill="#dbeafe" stroke="#93c5fd"/>
+
+  <text x="228" y="540" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1e3a8a">52</text>
+  <text x="340" y="540" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1e3a8a">4</text>
+  <text x="448" y="540" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1e3a8a">8</text>
+
+  <text x="610" y="470" font-family="Arial, sans-serif" font-size="18" fill="#2f4054">Interpretation:</text>
+  <text x="610" y="515" font-family="Arial, sans-serif" font-size="16" fill="#4a5d70">The model correctly classifies most reviews.</text>
+  <text x="610" y="545" font-family="Arial, sans-serif" font-size="16" fill="#4a5d70">Positive and negative classes show strong performance.</text>
+  <text x="610" y="575" font-family="Arial, sans-serif" font-size="16" fill="#4a5d70">Neutral reviews are slightly harder to identify.</text>
+</svg>
